@@ -12,7 +12,7 @@ Text to speech conversion using Amazon Polly.
 &nbsp;&nbsp;&nbsp;&nbsp;4. IAM Role: This role will be assumed by the Lambda function.  
 
   
-**Walks through Holy-Polly! Project**  
+**Walk-through Holy-Polly! Project**  
   
 •	**Create two S3 Buckets**, one for uploading text file (merina-source-bucket) and another for saving audio file (merina-destination-bucket), disable public access.    
 
