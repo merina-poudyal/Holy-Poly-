@@ -1,0 +1,25 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "Statement1",
+			"Effect": "Allow",
+			"Action": [
+				"s3:PutObject",
+				"s3:GetObject"
+			],
+			"Resource": [
+				"arn:aws:s3:::merina-source-bucket/*",
+				"arn:aws:s3:::merina-destination-bucket/*"
+			]
+		},
+		{
+			"Sid": "Statement2",
+			"Effect": "Allow",
+			"Action": [
+				"polly:SynthesizeSpeech"
+			],
+			"Resource": "*"
+		}
+	]
+}
